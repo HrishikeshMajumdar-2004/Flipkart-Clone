@@ -1,0 +1,26 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    width: 60px;
+    padding: 2px;
+    background-color: blue;
+    color: azure;
+    border-radius: 7px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.btn:hover{
+    font-weight: bolder;
+}
+.my-2{
+    margin:22px 10px;
+}
+.text-center{
+    text-align:  center;
+}
+.my-1{
+    margin: 12px 0;
+}

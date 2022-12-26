@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    /* height: 7vh; */
+    background-color: blue;
+    font-family: 'Mukta', sans-serif;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 18px;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+nav{
+    display: flex;
+}
+li{
+    list-style: none;
+    /* display: inline-block; */
+    margin:1vh;
+    padding:1vh;
+    /* we can do like this by displaying inline block and adjusting margin and padding to make the li appear approximately in the centre of the header or we can display:flexbox in ul*/
+}
+ul{
+    display:flex;
+    height: 58px;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 4vw;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    font-weight: bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+    
+}
+input{
+    width: 30vw;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 2px;
+    padding: 0 8px;
+    margin: 0 20px 0 180px;
+}
+.offers{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+    /* dont miss the spaces between values and signs.. 58px=height of ul i.e., header and 12vh= height of footer */
+}
+.slider{
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+.slider img{
+    width: 100%;
+}
+.card{
+    max-width: 95vw;
+    margin: auto;
+}
+.card h2{
+    font-family: 'Work Sans', sans-serif;
+}
+.cards{
+    display: flex;
+    /* justify-content: center; */
+    overflow: hidden;
+}
+.carditems{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 7px;
+}
+footer{
+    background-color: blue;
+    color: white;
+    height: 12vh;
+    
+}
